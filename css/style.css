@@ -6,8 +6,11 @@
   padding-right: 29px;
   padding-bottom: 29px;
 }
-* {
-  box-sizing: border-box;
+
+@media only screen and (max-width: 600px) {
+  .card{
+    margin-right: 25%;
+  }
 }
 
 .row::after {
